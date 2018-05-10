@@ -1,0 +1,390 @@
+#Welcome{
+
+	background-image: url(../img/a1.png) ;
+	background-repeat:no-repeat;
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 800px;
+}
+#Welcome h1{
+	margin: 0;
+	font-family: "agency fb";
+	font-size: 62px;
+	text-align: center;
+	padding-top:200px;
+	color: white;
+}
+#Welcome p:nth-of-type(1){
+	color:white;
+	font-family: Myriad Pro;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 250px;
+	padding-right: 250px;
+	opacity: 0.7;
+}
+#Welcome #create_acc p{
+	color:white;
+	font-family: arial;
+	font-size:12px;
+	opacity: 0.5;
+	text-align: center;
+	margin-top: 10;
+	margin-bottom: 30px;
+}
+#Welcome h5{
+	font-size: 16px;
+	color:white;
+	text-align: center;
+	margin: 0;
+}
+#Welcome input{
+	display: inline-block;
+	background: none;
+	border: 1px solid rgba(98,93,80,1);;
+	border-radius: 5px;
+	padding: 20px;
+	opacity: 1;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#Welcome input:nth-of-type(3){
+	background-color: white;
+	border-radius: 5px;
+	margin-left: 32px;
+	opacity: 1;
+	border:0;
+	color: black;
+}
+#input input:nth-of-type(1){
+	margin-left: 120px;
+	margin-right: 28.3px;
+	width: 200px;
+}
+#input input:nth-of-type(2){
+	width: 200px;
+}
+#Welcome #create_acc{
+	border:1px solid rgba(87,85,81,1);
+	border-radius: 10px;
+	padding: 30px;
+	margin-top: 80px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+#Awesome{
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 600px;
+}
+#Awesome h5{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 50px;
+}
+#Awesome h2{
+	font-size:42px;
+	text-align: center;
+	margin: 0;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 30px;
+}
+#Awesome table tr td table{
+	margin-right: 100px;
+}
+#Awesome table tr td table tr td h4{
+	margin: 0;
+	margin-top: 40px;
+}
+#Awesome table tr td table tr td img{
+	padding:30px;
+}
+#Awesome table tr td table tr td p{
+	margin-top: 10px;
+	width: 400px;
+}
+#supportive{
+	background-image: url(../img/a2.png);
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 800px;
+}
+#supportive table{
+	width: 100%;
+}
+#supportive table tr td img:nth-of-type(1){
+	padding-top: 80px;
+	float:right;
+}
+#supportive table tr td img:nth-of-type(2){
+	padding-top: 80px;
+	float:right;
+	margin-top: -649px;
+}
+#supportive table tr td h2{
+	padding: 50px;
+	padding-bottom: 20px;
+	text-align: left;
+	color: white;
+	font-size: 42px;
+	width:450px;
+}
+#supportive table tr td p{
+	text-align: left;
+	padding: 50px;
+	padding-top: 0px;
+	color: white;
+	font-size: 18px;
+	width: 450px;
+	margin: 0;
+	opacity: 0.7;
+}
+#supportive #input1 button{
+	background-color: white;
+	font-size: 12px;
+	padding: 20px;
+	border:1px solid rgba(98,93,80,1);
+	border-radius: 5px;
+	width: 200px;
+}
+#supportive #input1 button:nth-of-type(1)
+{
+	margin-left: 50px;
+	margin-right: 10px;
+}
+#supportive #input1 button:nth-of-type(2)
+{
+	background: none;
+	color: white;
+}
+#product{
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 400px;
+	border-bottom: 1px solid gray;
+}
+#product h3{
+	font-size: 42px;
+	text-align: center;
+}
+#product #productDetail {
+	display: flex;
+	justify-content: space-around;
+	
+}
+#product #productDetail table td{
+	text-align: center;
+}
+#product #productDetail table tr p{
+	width:250px;
+	text-align: center;
+}
+#intro{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 100px;
+}
+#intro img{
+	float: left;
+	margin-left: 100px;
+	margin-right: 30px;
+}
+#intro img:nth-of-type(2){
+	margin-left:20px;
+	margin-top: -140px;
+}
+#intro h4:nth-of-type(1){
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	width: 300px;
+	padding-top: 50px;
+}
+#intro p:nth-of-type(1){
+	margin-top: 10px;
+	font-size: 16px;
+	width:300px;
+	float:left;
+}
+#intro h4:nth-of-type(2){
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	clear: left;
+	width: 350px;
+	padding-top: 50px;
+	margin-left: 100px;
+	margin-right: 30px;
+}
+#intro p:nth-of-type(2){
+	margin-top: 10px;
+	font-size: 16px;
+	width:300px;
+	float:left;
+	clear: left;
+	margin-left: 100px;
+	margin-right: 30px;
+}
+#crew{
+	margin-left: 10%;
+	margin-right: 10%;
+	clear:both;
+	border-top: 1px solid gray;
+	margin-top: 20px;
+	border-bottom: 1px solid gray;
+	min-height: 600px;
+}
+#crew h2{
+	font-size: 42px;
+	text-align: center;
+}
+#crew p{
+	font-size: 18px;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+#crew table{
+	width: 100%;
+	text-align: center;
+}
+#crew #people{
+	padding:0;
+	margin: 0;
+}
+#crew img{
+	margin:0;
+}
+#crew table tr td h5{
+	position: absolute;
+	margin-top: -250px;	
+	color: white;
+	margin-left: 270px;
+	font-size: 28px;
+	opacity: 0.7;
+}
+#crew table tr td p{
+	position: absolute;
+	margin-top: -210px;	
+	color: white;
+	margin-left: 100px;
+	font-size: 12px;
+	opacity: 0.5;
+}
+#crew #people img:nth-of-type(1){
+	margin:0;
+}
+#crew #people img:nth-of-type(2){
+	position: absolute;
+	margin:0;
+	margin-left:-475px;
+}
+#crew #people img:nth-of-type(3){
+	position: absolute;
+	margin-left:-350px;
+	margin-top:180px;
+}
+#crew #people img:nth-of-type(4){
+	position: absolute;
+	margin-left:-270px;
+	margin-top:180px;
+}
+#crew #people img:nth-of-type(5){
+	position: absolute;
+	margin-left:-190px;
+	margin-top:180px;
+}
+#crew #people #hand{
+	position: relative;
+	margin-left:-150px;
+	padding-top: -200px;
+}
+#submit{
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 700px;
+
+}
+#submit form{
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 50px;
+	margin-top: 100px;
+	margin-left: 130px;
+	width:360PX;
+}
+#submit table tr td form h3{
+	font-size:30px;
+	font-family: "bodoni mt";
+	text-align: center;
+	margin-top: 0;
+}
+#submit form input{
+	border: 1px solid gray;
+	background: none;
+	padding:20px;
+	border-radius: 5px;
+	display: block;
+	margin-top: 20px;
+	width:320px;
+}
+#submit form #button{
+	background-image: url(../img/Button1.png);
+	width: 362px;
+}
+#submit form textarea{
+	margin-top: 20px;
+	border: 1px solid gray;
+	background: none;
+	padding:20px;
+	border-radius: 5px;
+	width: 320px;
+}
+#submit table tr td div{
+	margin-left: 80px;
+	margin-top: 120px;
+	width: 450px;
+}
+#submit table tr td div h2{
+	font-size: 40px;
+}
+#submit table tr td div p{
+	font-size: 24px;
+	font-family: "monotype corsiva";
+	opacity: 0.8;
+}
+#submit table tr td div img{
+	float:left;
+	clear: left;
+	width: 7%;
+	margin:10px;
+	margin-bottom: 30px;
+}
+#submit table tr td div address{
+	float:left;
+	margin-left: 20px;
+	padding: 10px;
+	font-size: 18px;
+}
+footer{
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	background-image: url(../img/bga.png);
+}
+footer table{
+	width:230px;
+	margin: 30px;
+}
+footer table th{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+footer table td{
+	text-align:center;
+	color: white;
+	opacity: 0.6;
+	padding: 5px;
+}
